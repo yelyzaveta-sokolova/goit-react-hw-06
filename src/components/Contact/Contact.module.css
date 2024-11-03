@@ -1,0 +1,31 @@
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #0080ff;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: #87b1ff;
+}
+
+.contactDetail {
+    display: flex;
+    gap: 10px;
+}
+
+.contactBtn{
+    background-color: #d4e3ff;
+    border: 2px solid #3285d8;
+    border-radius: 10px;
+    color:#3285d8 ;
+    cursor: pointer;
+    height: auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contactBtn:hover {
+    background-color: #0646bd;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
